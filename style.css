@@ -1,0 +1,11 @@
+html{
+   text-align:center
+}
+body { padding: 25px;}
+
+#newRegistration{
+    color: green
+}
+#checkRegistration{
+    color: blue
+}

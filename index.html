@@ -1,21 +1,35 @@
 <html>
    <head>
       <title>2023 Sun Day Fun Day Race Registraiton Form</title>
-      <style>
-         body { padding: 25px;}
-      </style>
+      <link rel="stylesheet" href="style.css">
    </head>
    <body>
     <header>
         <h1>2023 Sun Day Fun Day Race Registraiton Form</h1>
     </header>
-      <form action="">
-         <label> First Name <input type="text" name="firstName"></label>
-         <label> Last Name <input type="text" name="lastName"></label>
-         <label> Email <input type="email" name="emailAddress"/></label>
-         <label> Age <input type="number" name="age"></label>
-         <button>Submit</button>
-      </form>
-      <!-- <p id="demo"></p> -->
+    <section>
+        <h2 id = newRegistration> Register for the Race!</h2>
+        <form action="">
+           <label> First Name <input type="text" name="firstName"></label>
+           <label> Last Name <input type="text" name="lastName"></label>
+           <label> Email <input type="email" name="emailAddress"/></label>
+           <label> Age <input type="number" name="age"></label>
+           <button>Submit</button>
+        </form>
+        <p> Race times depend on registration status. Adults run between 9:30 and 11:30 while youth run at 12:30 pm. </p>
+    </section>
+    <section>
+        <!-- <p id="demo"></p> -->
+    </section>
+      <hr>
+    <section>
+        <h2 id = checkRegistration> Check Registration Status</h2>
+        <p> If you have already registred for the reace, you can check your registration information here.</p>
+        <form action="">
+            <label> Email <input type="email" name="emailAddress"/></label>
+            <label> Confirmation Number <input type="text" name="confirmationNumber"></label>
+            <button>Submit</button>
+         </form>
+    </section>
    </body>
 </html>
