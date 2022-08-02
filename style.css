@@ -1,6 +1,12 @@
 html{
    text-align:center
+   background-color: #e5e5f7;
+   opacity: 0.8;
+   background: repeating-linear-gradient( 45deg, #d8efff, #d8efff 5px, #e5e5f7 5px, #e5e5f7 25px )
 }
+
+/*Found the background design on: https://www.magicpattern.design/tools/css-backgrounds> */
+
 body { padding: 25px;}
 
 h1 {
