@@ -3,6 +3,10 @@ html{
 }
 body { padding: 25px;}
 
+h1 {
+    color: orangered
+}
+
 #newRegistration{
     color: green
 }
